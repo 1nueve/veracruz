@@ -1,0 +1,76 @@
+/*
+Title:   Main Template Css File
+Author:  http://themeforest.net/user/hogash // Marius Hogas  */
+
+/* BODY FONT - Applies to everything */
+body {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	line-height: 19px;
+	/* [disabled]color: #F5F5F5; 
+	background-color: #27100A;*/
+}
+h1, h2, h3, h4, h5, h6, div.pp_kalypso .ppt {
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:700;
+}
+
+
+
+/* goboxes */
+.gobox {background:#797979; color:#fff; padding:15px; min-height:100px; position:relative; text-shadow:1px 1px 0 rgba(0,0,0,0.4);
+-webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; }
+.gobox:hover {-webkit-box-shadow:0 0 15px rgba(0,0,0,0.2); -moz-box-shadow:0 0 15px rgba(0,0,0,0.2); box-shadow:0 0 15px rgba(0,0,0,0.2)}
+.gobox h4 {margin-top:5px;}
+.gobox:after {content:''; position:absolute; top:50%; right:-10px; margin-top:-5px; border:5px solid transparent; border-left-color:#797979;}
+.gobox.ok {background:#cd2122; font-size:13px; text-transform:uppercase;}
+.gobox.ok:after {display:none;}
+.gobox.ok h4 {font-size:26px; margin-top: 20px;}
+.gobox.ok > img {float:left; margin-right:25px; margin-top:20px;}
+
+.gray-area {background:#ebebeb; padding:30px 0 0; margin-bottom:30px;}
+.gray-area.noMargin {margin-bottom:0; padding-bottom:20px;}
+
+/* info text box */
+.info-text {background:#767676; color:#fff; font-size:28px; line-height:1.4; padding: 15px 20px; position:relative;
+-webkit-box-shadow: 3px 3px 0 white; -moz-box-shadow: 3px 3px 0 white; box-shadow: 3px 3px 0 white;}
+.info-text:after {content:''; width:34px; height:34px; background:url(../images/info-circle.png); position:absolute; right:10px; bottom:10px;}
+ 
+/* testimonials carousel */
+.testimonials-carousel {position:relative;}
+.testimonials-carousel .controls {
+	position:absolute;
+	right:290px;
+	top:107px;
+	width: 107px;
+	height: 38px;
+}
+.testimonials-carousel .controls > a {opacity:0.5; filter:alpha(opacity=50);}
+.testimonials-carousel .controls > a:hover {opacity:1; filter:alpha(opacity=100);}
+.testimonials-carousel ul {margin:0; padding:0; list-style:none;}
+.testimonials-carousel ul li {float:left;}
+.testimonials-carousel blockquote {
+	/* [disabled]background:#fff;
+	opacity:.8;
+	filter:alpha(opacity=80);
+*/
+	/* [disabled]border:4px solid #eee; */
+	padding:2px;
+	font-size:12px;
+	font-style:italic;
+	color:#F3F3F3;
+	position:relative;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+.testimonials-carousel blockquote:after {
+	content:'';
+	position:absolute;
+	bottom:-14px;
+	left:15px;
+	/* [disabled]border:7px solid transparent; */
+	border-top-color:#fff;
+}
+.testimonials-carousel blockquote + h5 {margin-top:0; margin-left:5px; font-size:13px; font-weight:500;}

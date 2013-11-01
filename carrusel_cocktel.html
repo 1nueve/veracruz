@@ -1,0 +1,173 @@
+<!doctype html>
+
+
+<head>
+	
+	<meta charset="utf-8">
+	
+
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="css/cockteles.css" type="text/css" />
+	
+	
+    
+    
+
+	
+	<!-- This stylesheet only adds some repairs on idevices  -->
+	
+	
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700,900&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700&amp;v1&mp;subset=latin,latin-ext" type="text/css" media="screen" id="google_font_body" />
+	
+	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	<script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js">\x3C/script>')</script>
+	
+
+    
+
+
+</head>
+
+<body class="">
+
+	
+        
+
+                <div class="testimonials-carousel">
+             <div class="controls"> <a href="#" class="prev"><span class="icon-chevron-left"></span></a> <a href="#" class="next"><span class="icon-chevron-right"></span></a> </div>
+                  <ul id="testimonials_carousel" class="fixclear">
+                    <li>
+                      
+                      <table width="0" border="0" cellpadding="4" cellspacing="0">
+  <tr>
+    <td style="width:97px; height:95px;"><a href="coctel_strawberry.html" target="_parent"><img src="images/cokteles/coctel_02.png" ></a></td>
+    <td><blockquote>  <h5 class="text-warning" >GREEN DAY</h5>
+      <span> Poner en un frasco 10 cáscaras de mandarinas, sin la parte blanca, y cubrir con alcohol etí...</span></blockquote></td>
+  </tr>
+  </table>
+                      
+               
+                    
+                    </li>
+                    <li>
+                     
+                       <table width="0" border="0" cellpadding="4" cellspacing="0">
+  <tr>
+    <td style="width:97px; height:95px;"><a href="coctel_strawberry.html" target="_parent"><img src="images/cokteles/coctel_01.png" alt="" width="95" height="97"></a></td>
+    <td><blockquote>  <h5 class="text-warning" >STRAWBERRY MARTINI</h5>
+      <span>Mezclar el vodka, la granadina y el licor de manzana en shaker. Servir en un vaso alto, con ... </span></blockquote></td>
+  </tr>
+  </table>
+
+                   
+                    </li>
+                  </ul>
+</div>
+                
+                
+                
+			
+        
+</div><!-- end page_wrapper --><!--////////////////// Load JS Files -->
+
+<!-- Start Circular Content Carousel code 
+	<script type="text/javascript" src="sliders/circular_content_carousel/js/jquery.mousewheel.js"></script>
+    <script type="text/javascript" src="sliders/circular_content_carousel/js/jquery.swipe.js"></script>
+	<script type="text/javascript" src="sliders/circular_content_carousel/js/jquery.contentcarousel.js"></script>
+	<script type="text/javascript">
+		jQuery('#ca-container').contentcarousel();
+		
+		jQuery(window).load(function(){
+        	setTimeout(function() {
+                jQuery('#ca-container .ca-icon').css('backgroundImage', 'none');
+            }, 1000);
+         
+		});
+	</script>-->
+<!-- End Circular Content Carousel code -->
+
+<!--////////////////// Load JS Files -->
+
+
+<!-- Carousels (by CarouFredSel) -->
+<script src="js/jquery.carouFredSel.js" type="text/javascript"></script>
+
+<!-- Carousels (by CarouFredSel) -->
+<script type="text/javascript" language="javascript">
+;(function($) {
+	
+	
+	
+	$(window).load(function(){
+		
+		
+		// ** recent works
+		$('#recent_works1').carouFredSel({
+			responsive: true,
+			scroll: 1,
+			auto: false,
+			items: {
+				width: 300,
+				visible: {
+					min: 3,
+					max: 10
+				}
+			},
+			prev	: {	
+				button	: ".recentwork_carousel .prev",
+				key		: "left"
+			},
+			next	: { 
+				button	: ".recentwork_carousel .next",
+				key		: "right"
+			}
+		});
+		// *** end recent works carousel
+		
+		// ** Testimonials carousel
+		$('#testimonials_carousel').carouFredSel({
+			responsive: true,
+			items: {
+				width: 300
+			},
+			auto: true,
+			prev	: {	
+				button	: ".testimonials-carousel .prev",
+				key		: "left"
+			},
+			next	: { 
+				button	: ".testimonials-carousel .next",
+				key		: "right"
+			}
+		});
+		// *** end testimonials carousel
+		
+		// ** Screenshots carousel
+		$('#screenshot-carousel').carouFredSel({
+			responsive: true,
+			items: {
+				width: 580
+			},
+			auto: true,
+			prev	: {	
+				button	: ".thescreenshot .prev",
+				key		: "left"
+			},
+			next	: { 
+				button	: ".thescreenshot .next",
+				key		: "right"
+			}
+		});
+		// *** end Screenshots carousel
+	});
+	
+})(jQuery);
+</script>
+
+
+
+
+
+
+</html>

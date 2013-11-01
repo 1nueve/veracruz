@@ -1,0 +1,106 @@
+/* ------ general
+-----------------------------------------------*/
+
+html, body {
+padding:0;
+margin:0;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ------ craftmap
+-----------------------------------------------*/
+
+.txtmundi{
+	font-size:11px;
+	color:#c39905;
+	}
+
+a {
+color:#c39905;
+text-decoration:none;
+}
+
+.img_ban{  
+position: absolute;
+left:211px;
+top: 40px;
+padding:10px 0px 0px 0px}
+
+
+.img_mundi{  
+position: absolute;
+left:177px;
+top: 35px;
+padding:10px 0px 0px 0px}
+
+
+/* ------ Scroll--*/
+
+
+/* Scroll Bar Master Styling Starts Here */
+/* All comments can be freely removed from the css */
+
+.scrollgeneric {
+line-height: 1px;
+font-size: 1px;
+position: absolute;
+top: 0; left: 0;
+}
+
+.vscrollerbase {
+width: 08px;
+background-color: white;
+}
+.vscrollerbar {
+width: 08px;
+background-color: #c39905;
+}
+.hscrollerbase {
+height: 08px;
+background-color: white;
+}
+.hscrollerbar {
+height: 08px;
+background-color: black;
+}
+
+.scrollerjogbox {
+width: 08px;
+height: 08px;
+top: auto; left: auto;
+bottom: 0px; right: 0px;
+background-color: gray;
+}
+
+
+.flexcroll {
+	/* Typical fixed height and fixed width example */
+	width: 200px;
+	height: 350px;
+	overflow: auto;
+	/* IE overflow fix, position must be relative or absolute*/
+	background-color: #ececec;
+	padding: 15px;
+	position: absolute;
+	left: 710px;
+	top: 105px;
+	margin-top: 0.3em;
+	margin-right: auto;
+	margin-bottom: 0.3em;
+	margin-left: auto;
+}
+
+/* hesido: notice the addition of emptyspace holder, it should slightly be bigger than the containing div */
+/* and it should only be that big when fleXcroll is active for better degradation */
+.flexcrollactive .emptyspace {
+	height: 260px;
+	}
+
+/* you may optionally want to hide the scrollbars */
+#mycustomscroll .vscrollerbase {
+	visibility: hidden !important;
+}

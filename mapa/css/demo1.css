@@ -1,0 +1,126 @@
+@import url(http://fonts.googleapis.com/css?family=Engagement);
+
+h1 {
+text-align:center;
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+font-weight:bold;
+color:#3a0e07;
+}
+
+#content {
+	margin: 20px auto 0;
+	width: 900px;
+}
+
+.demo1 {
+	float: left;
+	margin-left:15px;
+	width: 683px;
+	height: 390px;
+	-moz-box-shadow: 0 0 2px #d7b338;
+	-webkit-box-shadow: 0 0 2px #d7b338;
+	box-shadow: 0 0 2px #d7b338;
+}
+
+.menu {
+margin-bottom:40px;
+text-align:center;
+}
+
+.menu a {
+color:#D7363A;
+font-size:11px;
+font-weight:bold;
+margin:0 10px;
+}
+
+.preloader {
+background:url(../images/loader.gif) no-repeat center #fff;
+}
+
+.marker {
+display:block;
+text-indent:-9999px;
+width:15px;
+height:23px;
+outline:none;
+background:url(../images/marker.png) no-repeat;
+cursor:pointer;
+}
+
+
+.popup {
+position:absolute;
+width:330px;
+height:150px;
+color:#520007;
+font-weight:bold;
+font-size:11px;
+line-height:19px;
+background: url(../images/tarjeta.png) no-repeat;
+padding:15px 0px 0px 20px;
+margin:20px 0px 0px 10px;
+
+
+}
+
+.popup h3 {
+margin:0px;
+margin-bottom:10px;
+font-family: 'Cabin Condensed', sans-serif;
+font-weight:normal;
+font-size:20px;
+}
+
+.popup .close {
+display:block;
+text-indent:-9999px;
+position:absolute;
+top:4px;
+right:16px;
+width:16px;
+height:16px;
+outline:none;
+background:url(../images/close.gif) no-repeat;
+cursor:pointer;
+}
+
+.relative {
+	position: relative;
+	background-color: #FFF;
+	width: 980px;
+	height: 520px;
+}
+
+.controls {
+	margin-bottom: 25px;
+}
+	
+	
+.controls a {
+/*background:#2a2a2a;
+background:rgba(0, 0, 0, .6);
+
+clear:both;
+display:block;
+float:left;*/
+
+font-size:12px;
+font-weight:bold;
+line-height:22px;
+margin-bottom:01px;
+outline:none;
+padding:0 15px;
+text-decoration:none;
+}
+
+.controls a:hover {
+/*background:#eee;*/
+color:#2a2a2a;
+}
+
+.controls .active {
+/*background:#D7363A;*/
+color:#500008;
+}
