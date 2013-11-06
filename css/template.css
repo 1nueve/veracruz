@@ -1952,6 +1952,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 @media (max-width: 767px) {
 .row-fluid.no-space [class*="span"] {width: auto !important;} 
 }
+
+@media (max-width: 1024px){
+	.text_preparacion{
+		width:259px;
+	}
+	.bebida_reset{
+		width: 137px !important ;margin-top: 8px !important;
+	}
+	
+}
 .pricing_table { text-align: center; margin: 25px 0;}
 .pricing_table .tb_header {background-color: #8AB623; }
 .pricing_table .tb_header h4 { margin: 0; padding: 15px 0px; border-bottom: 3px solid #5E852C; color: white; 
