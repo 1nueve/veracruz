@@ -1986,6 +1986,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.greenday{
 		width: 200px;
 	}
+	.caroufredsel_wrapper{
+		width:370px !important;
+		height:173px !important;
+	}
+	.partners_carousel{
+		width: 370px !important;
+		height:173px;
+		
+	}
+	.partners_carousel li{
+		width: 120px !important;
+	}
 }
 .pricing_table { text-align: center; margin: 25px 0;}
 .pricing_table .tb_header {background-color: #8AB623; }

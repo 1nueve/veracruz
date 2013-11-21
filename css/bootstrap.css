@@ -191,7 +191,7 @@ a:hover {
 [class*="span"] {
   float: left;
   min-height: 1px;
-  margin-left: 20px;
+  margin-left: 36px;
 }
 .container,
 .navbar-static-top .container,
@@ -212,7 +212,7 @@ a:hover {
   width: 860px;
 }
 .span10 {
-  width: 886px;
+  width: 871px;
 }
 .span9 {
   width: 700px;
@@ -3954,7 +3954,7 @@ button.close {
   [class*="span"] {
     float: left;
     min-height: 1px;
-    margin-left: 30px;
+    margin-left: 37px;
   }
   .container,
   .navbar-static-top .container,
@@ -3969,7 +3969,7 @@ button.close {
     width: 1070px;
   }
   .span10 {
-	width: 1012px;
+	width: 990px;
   }
   .span9 {
     width: 870px;
