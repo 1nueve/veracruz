@@ -1949,11 +1949,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .row-fluid.no-space .span10 {width: 83.334% !important;}
 .row-fluid.no-space .span11 {width: 91.666% !important;}
 .row-fluid.no-space .span12 {width: 100% !important;}
-@media (max-width: 767px) {
+@media (max-width: 768px) {
 .row-fluid.no-space [class*="span"] {width: auto !important;} 
+.ca-more span{
+	font-size:12px;
+}
 }
 
 @media (max-width: 1024px){
+	
+	.tequila{
+		right:106px;
+	}
+	.ron{
+		right:74px;
+	}
+	.vodka{
+		right:120px;
+	}
+	.anis{
+		right:122px;
+	}
 	.text_preparacion{
 		width:259px;
 	}
@@ -1961,6 +1977,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 		width: 137px !important ;margin-top: 8px !important;
 	}
 	
+	.inst{
+		font-size:6px;
+	}
+	.car-img{
+		width:300px;
+	}
+	.greenday{
+		width: 200px;
+	}
 }
 .pricing_table { text-align: center; margin: 25px 0;}
 .pricing_table .tb_header {background-color: #8AB623; }

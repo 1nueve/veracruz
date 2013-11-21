@@ -34,13 +34,14 @@ transition: all 150ms ease-out;}
 
 .ca-item * {position:relative;}
 
+
 .ca-more{
 	
 	
 	
 	position: absolute;
 	bottom: 9px;
-	right:100px;
+	
 	
 	display: block;
 	font-weight:500;
