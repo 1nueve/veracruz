@@ -1956,6 +1956,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 }
 
+.caroufredsel_wrapper{
+		width:470px !important;
+		height:173px !important;
+	}
+
 @media (max-width: 1024px){
 	
 	.tequila{
