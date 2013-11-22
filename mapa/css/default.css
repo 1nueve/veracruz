@@ -104,3 +104,6 @@ background-color: gray;
 #mycustomscroll .vscrollerbase {
 	visibility: hidden !important;
 }
+#mycustomscroll2_vscrollerbar{
+	left:-11px;
+}
