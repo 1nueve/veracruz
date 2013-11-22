@@ -2714,3 +2714,13 @@ position:absolute; left:588px; top:-15px;
 	padding-left:-01px;
 
 	}
+	
+/*=======cambios jossue===========*/
+
+/* cambia la direccion el el footer*/
+ footer .span3:nth-child(3) {
+    
+    width:160px !important;
+    margin:0
+    
+  }
