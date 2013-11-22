@@ -1959,7 +1959,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .caroufredsel_wrapper{
 		width:470px !important;
 		height:173px !important;
-	}
+}
+
+.tequila{
+	right: 128px;
+}
+.ron{
+	right: 88px.
+}
+.vodka{
+	right:145px;
+}
+
+.anis{
+	right:145px;
+}
 
 @media (max-width: 1024px){
 	
