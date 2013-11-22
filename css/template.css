@@ -1958,7 +1958,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .caroufredsel_wrapper{
 		width:470px !important;
-		height:173px !important;
+		height:182px !important;
 }
 
 .tequila{
@@ -1974,6 +1974,33 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 .anis{
 	right:145px;
 }
+
+.cuba{
+	margin-left: 36%;
+}
+.strawberry{
+	margin-left: 23%;
+}
+.semaforo{
+	margin-left: 33%;
+}
+.greenday{
+	margin-left: 31%;
+}
+.margarita{
+	margin-left: 30%;
+}
+.cosmo{
+	margin-left:34%;
+}
+.alfonso{
+	margin-left: 31%;
+}
+.mocambo{
+	margin-left: 20%;
+}
+
+
 
 @media (max-width: 1024px){
 	
