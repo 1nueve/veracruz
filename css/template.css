@@ -2044,6 +2044,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.partners_carousel li{
 		width: 120px !important;
 	}
+	
 }
 .pricing_table { text-align: center; margin: 25px 0;}
 .pricing_table .tb_header {background-color: #8AB623; }
