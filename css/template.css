@@ -2004,6 +2004,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 @media (max-width: 1024px){
 	
+	.flexcroll{
+		left:622px !important;
+		z-index: 1;
+	}
+	.demo1{
+		width: 600px !important;
+	}
+	
+	.mapa_head{
+		width:850px !important;
+	}
+	
 	.tequila{
 		right:106px;
 	}
@@ -2044,6 +2056,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	.partners_carousel li{
 		width: 120px !important;
 	}
+	
 	
 }
 .pricing_table { text-align: center; margin: 25px 0;}
@@ -2725,3 +2738,6 @@ position:absolute; left:588px; top:-15px;
     margin:0
     
   }
+  
+iframe, object, embed{
+  max-width: 100%;}
